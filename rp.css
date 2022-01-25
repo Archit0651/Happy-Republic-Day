@@ -1,0 +1,30 @@
+body {
+   background: url(tk.jpg);
+  background-size: 1920px 1200px;
+  background-repeat: no-repeat;
+}
+
+.text{
+  text-align: center;
+  padding-top: 50px;
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+  body {
+     background: url(tk.jpg);
+  background-repeat: no-repeat;
+  background-size: 1000px 4000px;
+  }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  body {
+     background: url(tk.jpg);
+  background-repeat: no-repeat;
+  background-size: 700px 4000px;
+  }
+}
+
+
